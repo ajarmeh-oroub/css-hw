@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr 1fr 2fr 1fr;
+height: 400px;
+width: 400px;
+grid-gap: 4px;
+
+        }
+        .header{
+            grid-area: 1 / 1 /2 /3;
+            background-color: yellow;
+            border-radius: 30px;
+        }
+        .side{
+            grid-area: 2/1/4/2;
+            background-color: orange;
+            border-radius: 30px;
+        }
+        .main{
+            grid-area: 3/2/4/3;
+            background-color: blueviolet;
+            border-radius: 30px;
+        }
+        .foot{
+            grid-area: 4/1/5/3;
+            background-color: brown;
+            border-radius: 30px;
+        }
+        .nav{
+            grid-area:2/2/3/3 ;
+            background-color: palevioletred;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="nav">nav bar</div>
+        <div class="side">side bar</div>
+        <div class="main"> <div>article </div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sunt doloribus veniam quas ducimus accusantium dicta optio minus animi porro aspernatur nisi et non commodi, eveniet provident officia praesentium. Rem?</div>
+    </div>
+        <div class="foot">footer</div>
+    </div>
+</body>
+</html>

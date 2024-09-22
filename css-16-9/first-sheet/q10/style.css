@@ -1,0 +1,12 @@
+.container #blue{
+    background-color: rgb(126, 151, 181);
+    color: white;
+}
+.container #pink{
+    background-color: pink;
+    color: white;
+}
+.container #orange{
+    background-color: rgb(160, 121, 50);
+    color: white;
+}

@@ -1,0 +1,21 @@
+.num1{
+    background-color: antiquewhite;
+    color: red;
+    margin: 6px;
+}
+
+.num2{
+    background-image: linear-gradient(lightblue , blue);
+    margin: 6px;
+    color: white;
+}
+.num3{
+    background-image: linear-gradient(lightgreen , blue);
+    margin: 6px;
+    color: white;
+}
+
+.container{
+    background-color: aquamarine;
+    padding: 50px;
+}

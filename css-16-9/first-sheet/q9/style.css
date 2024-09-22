@@ -1,0 +1,16 @@
+h1{ 
+    color: green;
+}
+.color{
+    color: red;
+    background-color: rgb(127, 167, 167);
+}
+ .color div:last-child{
+    color:blue;
+}
+.coloring{
+background-color: bisque;
+}
+.coloring div:nth-child(even){
+    background-color: pink;
+}
